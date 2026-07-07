@@ -11,16 +11,9 @@ type Section = {
 };
 
 const sections: Section[] = [
-  { key: "inspiration", label: "What and who inspires you as a design leader", icon: "&#10024;" },
-  { key: "leadershipStyle", label: "Your leadership style", icon: "&#9733;" },
-  { key: "influence", label: "What influence means to you", icon: "&#10038;" },
-  { key: "leadingPeers", label: "Leading your peers", icon: "&#10042;" },
-  { key: "facilitation", label: "How you facilitate groups", icon: "&#9733;" },
-  { key: "equityAndEthics", label: "Counter-bias and equitable design", icon: "&#10023;" },
-  { key: "cultureBuilding", label: "Culture building", icon: "&#10038;" },
-  { key: "resonated", label: "What resonated most", icon: "&#128156;" },
-  { key: "leaderType", label: "What type of leader you are", icon: "&#10042;" },
-  { key: "leadingOthers", label: "How you lead others", icon: "&#9733;" },
+  { key: "resonated", label: "What part of the course most resonated with you?", icon: "&#128156;" },
+  { key: "leaderType", label: "What type of leader are you?", icon: "&#10042;" },
+  { key: "leadingOthers", label: "How do you lead others?", icon: "&#9733;" },
 ];
 
 const containerVariants = {
