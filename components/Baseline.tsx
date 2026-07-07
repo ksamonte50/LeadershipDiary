@@ -78,7 +78,7 @@ export default function Baseline() {
                   }}
                 />
               </div>
-              <p className="font-body text-sm text-navy/40 mt-1 max-w-md">
+              <p className="font-body text-sm text-navy/40 mt-1 w-3/4">
                 {s.description}
               </p>
             </motion.div>
@@ -109,7 +109,11 @@ export default function Baseline() {
               className={`rounded-2xl p-6 border border-navy/10 ${
                 i === 0
                   ? "bg-mustard/10 tilt-card"
-                  : "bg-terracotta/10 tilt-card-right"
+                  : i === 1
+                  ? "bg-terracotta/10 tilt-card-right"
+                  : i === 2
+                  ? "bg-sage/10 tilt-card"
+                  : "bg-rose/10 tilt-card-right"
               }`}
             >
               <h4 className="font-heading text-2xl font-semibold text-navy mb-2">

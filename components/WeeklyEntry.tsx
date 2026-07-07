@@ -76,6 +76,12 @@ export default function WeeklyEntry({ entry, total }: Props) {
               <p className="font-body text-lg text-navy/80 leading-relaxed">
                 {entry.insight}
               </p>
+              <a
+                href={`/resources/week-${entry.week}-resource.pdf`}
+                className="inline-block font-body text-sm text-navy/40 hover:text-terracotta transition-colors mt-3 group"
+              >
+                View resource <span className="group-hover:translate-x-0.5 inline-block transition-transform">&#8599;</span>
+              </a>
             </motion.div>
 
             {/* Goal */}
