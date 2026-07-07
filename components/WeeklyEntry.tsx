@@ -49,13 +49,13 @@ export default function WeeklyEntry({ entry, total }: Props) {
               />
             </div>
             <div>
-              <p className="font-body text-xs tracking-[0.2em] uppercase text-navy/40">
+              <p className="font-body text-base tracking-[0.2em] uppercase text-navy/40">
                 Week {entry.week} of {total}
               </p>
-              <h2 className="font-heading text-2xl md:text-3xl font-bold text-navy">
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy">
                 {entry.title || `Week ${entry.week}`}
               </h2>
-              <p className="font-body text-sm text-navy/40">{entry.date}</p>
+              <p className="font-body text-base text-navy/40">{entry.date}</p>
             </div>
           </div>
 
@@ -69,11 +69,11 @@ export default function WeeklyEntry({ entry, total }: Props) {
               transition={{ delay: 0.1, duration: 0.5 }}
               className={`rounded-2xl p-6 border ${accent.border} ${accent.bg}`}
             >
-              <h3 className="font-heading text-sm font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
-                <span className="text-base" dangerouslySetInnerHTML={{ __html: "&#10024;" }} />
-                Key Insight
+              <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
+                <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#10024;" }} />
+                Resources
               </h3>
-              <p className="font-body text-navy/80 leading-relaxed">
+              <p className="font-body text-lg text-navy/80 leading-relaxed">
                 {entry.insight}
               </p>
             </motion.div>
@@ -86,11 +86,11 @@ export default function WeeklyEntry({ entry, total }: Props) {
               transition={{ delay: 0.2, duration: 0.5 }}
               className="rounded-2xl p-6 border border-navy/10 bg-navy/[0.03]"
             >
-              <h3 className="font-heading text-sm font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
-                <span className="text-base" dangerouslySetInnerHTML={{ __html: "&#127919;" }} />
+              <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
+                <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#127919;" }} />
                 Goal
               </h3>
-              <p className="font-body text-navy/80 leading-relaxed">
+              <p className="font-body text-lg text-navy/80 leading-relaxed">
                 {entry.goal}
               </p>
             </motion.div>
@@ -103,11 +103,11 @@ export default function WeeklyEntry({ entry, total }: Props) {
               transition={{ delay: 0.3, duration: 0.5 }}
               className="rounded-2xl p-6 border border-navy/10 bg-navy/[0.03]"
             >
-              <h3 className="font-heading text-sm font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
-                <span className="text-base" dangerouslySetInnerHTML={{ __html: "&#9889;" }} />
+              <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
+                <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#9889;" }} />
                 Action
               </h3>
-              <p className="font-body text-navy/80 leading-relaxed">
+              <p className="font-body text-lg text-navy/80 leading-relaxed">
                 {entry.action}
               </p>
             </motion.div>
@@ -121,11 +121,11 @@ export default function WeeklyEntry({ entry, total }: Props) {
                 transition={{ delay: 0.4, duration: 0.5 }}
                 className="rounded-2xl p-6 border border-mustard/20 bg-mustard/8"
               >
-                <h3 className="font-heading text-sm font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
-                  <span className="text-base" dangerouslySetInnerHTML={{ __html: "&#128156;" }} />
+              <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
+                  <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#128156;" }} />
                   What Resonated
                 </h3>
-                <p className="font-body text-navy/80 leading-relaxed italic">
+                <p className="font-body text-lg text-navy/80 leading-relaxed italic">
                   {entry.resonance}
                 </p>
               </motion.div>

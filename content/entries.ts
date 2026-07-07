@@ -11,7 +11,7 @@ export type DiaryEntry = {
 export const entries: DiaryEntry[] = [
   {
     week: 1,
-    date: "Week of June 2, 2026",
+    date: "Week of May 26, 2026",
     title: "Starting the Journey",
     insight:
       "Leadership isn't about having all the answers — it's about asking the right questions and creating space for others to contribute their perspectives.",
@@ -23,7 +23,7 @@ export const entries: DiaryEntry[] = [
   },
   {
     week: 2,
-    date: "Week of June 9, 2026",
+    date: "Week of June 2, 2026",
     title: "Knowing My Strengths",
     insight:
       "My top strengths reveal a pattern — I naturally gravitate toward strategic thinking and connection, but I sometimes overlook the need for structure and follow-through.",
@@ -35,7 +35,7 @@ export const entries: DiaryEntry[] = [
   },
   {
     week: 3,
-    date: "Week of June 16, 2026",
+    date: "Week of June 9, 2026",
     title: "Influence & Power",
     insight:
       "Influence isn't manipulation — it's the ability to create conditions where people willingly move toward a shared vision. Power is a tool, and its ethics depend entirely on intent.",
@@ -47,7 +47,7 @@ export const entries: DiaryEntry[] = [
   },
   {
     week: 4,
-    date: "Week of June 23, 2026",
+    date: "Week of June 16, 2026",
     title: "Leading Peers",
     insight:
       "Leading people who are your equals is fundamentally different from leading down a hierarchy — it requires more vulnerability, more negotiation, and a willingness to lead from behind.",
@@ -59,7 +59,7 @@ export const entries: DiaryEntry[] = [
   },
   {
     week: 5,
-    date: "Week of June 30, 2026",
+    date: "Week of June 23, 2026",
     title: "Facilitation as Leadership",
     insight:
       "Great facilitation is invisible — it's not about directing the conversation but about designing the conditions where the best ideas emerge naturally from the group.",
@@ -71,7 +71,7 @@ export const entries: DiaryEntry[] = [
   },
   {
     week: 6,
-    date: "Week of July 7, 2026",
+    date: "Week of June 30, 2026",
     title: "Equity & Ethics in Design",
     insight:
       "Counter-bias work isn't a checklist — it requires ongoing discomfort, structural change, and a willingness to interrogate my own assumptions constantly.",
@@ -83,7 +83,7 @@ export const entries: DiaryEntry[] = [
   },
   {
     week: 7,
-    date: "Week of July 14, 2026",
+    date: "Week of July 7, 2026",
     title: "Culture Building & What's Next",
     insight:
       "Culture isn't something you declare — it's the accumulation of small, consistent behaviors, norms, and stories that people live by every day.",

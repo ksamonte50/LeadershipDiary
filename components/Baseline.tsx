@@ -14,13 +14,13 @@ export default function Baseline() {
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
       >
-        <p className="font-body text-xs tracking-[0.25em] uppercase text-sage mb-2">
+        <p className="font-body text-base tracking-[0.25em] uppercase text-sage mb-2">
           Chapter 1
         </p>
-        <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-navy mb-4">
           Where I Started
         </h2>
-        <p className="font-body text-navy/60 max-w-2xl mb-16">
+        <p className="font-body text-xl text-navy/60 max-w-2xl mb-16">
           My baseline assessment — Clifton Strengths and Superpowers results that map the raw material I&apos;m working with.
         </p>
       </motion.div>
@@ -33,7 +33,7 @@ export default function Baseline() {
         transition={{ duration: 0.6 }}
         className="mb-16"
       >
-        <h3 className="font-heading text-xl font-semibold text-navy mb-6 flex items-center gap-2">
+        <h3 className="font-heading text-[1.75rem] font-semibold text-navy mb-6 flex items-center gap-2">
           <span className="text-mustard">&#9733;</span>
           Clifton Strengths — Top 5
         </h3>
@@ -48,8 +48,8 @@ export default function Baseline() {
               className="group"
             >
               <div className="flex items-baseline justify-between mb-1.5">
-                <span className="font-body text-sm font-medium text-navy">
-                  <span className="text-terracotta/60 font-mono text-xs mr-2">
+                <span className="font-body text-base font-medium text-navy">
+                  <span className="text-terracotta/60 font-mono text-sm mr-2">
                     #{s.rank}
                   </span>
                   {s.name}
@@ -78,7 +78,7 @@ export default function Baseline() {
                   }}
                 />
               </div>
-              <p className="font-body text-xs text-navy/40 mt-1 max-w-md">
+              <p className="font-body text-sm text-navy/40 mt-1 max-w-md">
                 {s.description}
               </p>
             </motion.div>
@@ -94,7 +94,7 @@ export default function Baseline() {
         transition={{ duration: 0.6 }}
         className="mb-16"
       >
-        <h3 className="font-heading text-xl font-semibold text-navy mb-6 flex items-center gap-2">
+        <h3 className="font-heading text-[1.75rem] font-semibold text-navy mb-6 flex items-center gap-2">
           <span className="text-terracotta">&#10038;</span>
           Superpowers Assessment
         </h3>
@@ -112,10 +112,10 @@ export default function Baseline() {
                   : "bg-terracotta/10 tilt-card-right"
               }`}
             >
-              <h4 className="font-heading text-lg font-semibold text-navy mb-2">
+              <h4 className="font-heading text-2xl font-semibold text-navy mb-2">
                 {sp.name}
               </h4>
-              <p className="font-body text-sm text-navy/60 leading-relaxed">
+              <p className="font-body text-base text-navy/60 leading-relaxed">
                 {sp.description}
               </p>
             </motion.div>
@@ -130,7 +130,7 @@ export default function Baseline() {
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.6 }}
       >
-        <h3 className="font-heading text-xl font-semibold text-navy mb-4 flex items-center gap-2">
+        <h3 className="font-heading text-[1.75rem] font-semibold text-navy mb-4 flex items-center gap-2">
           <span className="text-sage">&#10042;</span>
           What I Noticed
         </h3>

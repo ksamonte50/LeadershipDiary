@@ -43,16 +43,13 @@ export default function FinalReflection() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <p className="font-body text-xs tracking-[0.25em] uppercase text-mustard mb-2">
+          <p className="font-body text-base tracking-[0.25em] uppercase text-mustard mb-2">
             The Capstone
           </p>
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-navy mb-6">
+          <h2 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-navy mb-6">
             Final Reflection
           </h2>
           <div className="squiggle w-32 mx-auto mb-6" />
-          <p className="font-body text-navy/60 max-w-xl mx-auto">
-            Where I&apos;ve landed — ten questions, ten honest answers about the leader I&apos;m becoming.
-          </p>
         </motion.div>
 
         <motion.div
@@ -74,14 +71,14 @@ export default function FinalReflection() {
                   : "bg-sage/8"
               }`}
             >
-              <h3 className="font-heading text-xl md:text-2xl font-semibold text-navy mb-4 flex items-center gap-3">
+              <h3 className="font-heading text-2xl md:text-3xl font-semibold text-navy mb-4 flex items-center gap-3">
                 <span
                   className="text-2xl opacity-60"
                   dangerouslySetInnerHTML={{ __html: s.icon }}
                 />
                 {s.label}
               </h3>
-              <p className="font-body text-navy/70 leading-relaxed whitespace-pre-line">
+              <p className="font-body text-lg text-navy/70 leading-relaxed whitespace-pre-line">
                 {finalReflection[s.key]}
               </p>
             </motion.div>
@@ -97,10 +94,10 @@ export default function FinalReflection() {
           className="text-center mt-20"
         >
           <div className="squiggle w-48 mx-auto mb-6" />
-          <p className="font-heading text-2xl text-navy/40 italic">
+          <p className="font-heading text-3xl text-navy/40 italic">
             End of diary.
           </p>
-          <p className="font-body text-sm text-navy/30 mt-2">
+          <p className="font-body text-base text-navy/30 mt-2">
             &#10023; &#9733; &#10038; &#10042; &#9733; &#10023; &#10038;
           </p>
         </motion.div>

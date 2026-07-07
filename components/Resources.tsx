@@ -43,20 +43,20 @@ const itemVariants = {
 
 export default function Resources() {
   return (
-    <section className="py-24 px-6 max-w-5xl mx-auto" id="resources">
+    <section className="py-24 px-6 max-w-5xl mx-auto" id="toolkit">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
       >
-        <p className="font-body text-xs tracking-[0.25em] uppercase text-terracotta mb-2">
+        <p className="font-body text-base tracking-[0.25em] uppercase text-terracotta mb-2">
           Reference Material
         </p>
-        <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-navy mb-4">
           The Toolkit
         </h2>
-        <p className="font-body text-navy/60 max-w-2xl mb-12">
+        <p className="font-body text-xl text-navy/60 max-w-2xl mb-12">
           Key frameworks, readings, and models from the course. Dip in as needed — these are the lenses I&apos;ve been working through.
         </p>
       </motion.div>
@@ -76,17 +76,17 @@ export default function Resources() {
               gi % 2 === 0 ? "tilt-card" : "tilt-card-right"
             }`}
           >
-            <h3 className="font-heading text-lg font-semibold text-navy mb-4 flex items-center gap-2">
-              <span className="text-mustard text-xl">&#10023;</span>
+            <h3 className="font-heading text-2xl font-semibold text-navy mb-4 flex items-center gap-2">
+              <span className="text-mustard text-2xl">&#10023;</span>
               {group.category}
             </h3>
             <ul className="space-y-3">
               {group.items.map((item) => (
                 <li key={item.name} className="group">
-                  <span className="font-body text-sm font-medium text-navy/80 group-hover:text-terracotta transition-colors">
+                  <span className="font-body text-base font-medium text-navy/80 group-hover:text-terracotta transition-colors">
                     {item.name}
                   </span>
-                  <span className="block font-body text-xs text-navy/40 mt-0.5">
+                  <span className="block font-body text-sm text-navy/40 mt-0.5">
                     {item.desc}
                   </span>
                 </li>

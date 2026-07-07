@@ -30,7 +30,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="font-body text-sm tracking-[0.3em] uppercase text-navy/60 mb-6"
+          className="font-body text-base tracking-[0.3em] uppercase text-navy/60 mb-6"
         >
           A Personal Leadership Development Diary
         </motion.p>
@@ -57,7 +57,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.1, duration: 0.6 }}
-          className="font-body text-lg text-navy/70 leading-relaxed max-w-xl mx-auto mb-6"
+          className="font-body text-2xl text-navy/70 leading-relaxed max-w-xl mx-auto mb-6"
         >
           Kyle Samonte
         </motion.p>
@@ -66,7 +66,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.3, duration: 0.6 }}
-          className="font-body text-base text-navy/50 leading-relaxed max-w-xl mx-auto"
+          className="font-body text-xl text-navy/50 leading-relaxed max-w-xl mx-auto"
         >
           MDes Summer 2026 &middot; Leadership by Design
         </motion.p>
@@ -75,7 +75,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 0.6 }}
-          className="font-body text-sm text-navy/40 mt-12 italic"
+          className="font-body text-base text-navy/40 mt-12 italic"
         >
           Scroll to begin &#8595;
         </motion.p>

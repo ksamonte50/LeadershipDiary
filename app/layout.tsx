@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Leadership Diary — Kyle Samonte",
   description:
     "A personal leadership development diary for MDes Summer 2026, Leadership by Design.",
+  icons: {
+    icon: "/pencil.svg",
+  },
 };
 
 export default function RootLayout({

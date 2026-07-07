@@ -11,43 +11,51 @@ export default function Home() {
     <>
       <ProgressTrail />
       <main className="relative">
-        <Hero />
+        <div id="hero">
+          <Hero />
+        </div>
 
-        <div className="squiggle w-full max-w-xs mx-auto my-4" />
+        <div className="squiggle w-full max-w-xs mx-auto my-16" />
 
-        <Resources />
+        <div id="toolkit">
+          <Resources />
+        </div>
 
-        <div className="squiggle w-full max-w-xs mx-auto my-4" />
+        <div className="squiggle w-full max-w-xs mx-auto my-16" />
 
-        <Baseline />
+        <div id="baseline">
+          <Baseline />
+        </div>
 
-        <div className="squiggle w-full max-w-xs mx-auto my-4" />
+        <div className="squiggle w-full max-w-xs mx-auto my-16" />
 
         <section id="weekly">
           <div className="max-w-4xl mx-auto px-6 pt-16">
-            <p className="font-body text-xs tracking-[0.25em] uppercase text-navy/40 mb-2">
+            <p className="font-body text-base tracking-[0.25em] uppercase text-navy/40 mb-2">
               The Journey
             </p>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-2">
               Weekly Entries
             </h2>
-            <p className="font-body text-navy/50 mb-8">
+            <p className="font-body text-base text-navy/50 mb-8">
               Seven weeks of learning, reflecting, and growing as a leader.
             </p>
           </div>
           {entries.map((entry) => (
-            <div key={entry.week}>
+            <div key={entry.week} id={`week-${entry.week}`}>
               <WeeklyEntry entry={entry} total={entries.length} />
               {entry.week < entries.length && (
-                <div className="squiggle w-full max-w-xs mx-auto my-2" />
+                <div className="squiggle w-full max-w-xs mx-auto my-8" />
               )}
             </div>
           ))}
         </section>
 
-        <div className="squiggle w-full max-w-xs mx-auto my-4" />
+        <div className="squiggle w-full max-w-xs mx-auto my-16" />
 
-        <FinalReflection />
+        <div id="final">
+          <FinalReflection />
+        </div>
       </main>
     </>
   );
