@@ -2,14 +2,14 @@
 
 import { useEffect, useState, useRef, useCallback } from "react";
 
-const TOTAL_WEEKS = 7;
+const TOTAL_WEEKS = 5;
 const TOTAL_SECTIONS = TOTAL_WEEKS + 3; // hero + toolkit + baseline + weeks + final
 
 const sectionIds = [
   "hero",
   "toolkit",
   "baseline",
-  ...Array.from({ length: TOTAL_WEEKS }, (_, i) => `week-${i + 1}`),
+  ...Array.from({ length: TOTAL_WEEKS }, (_, i) => `week-${i + 2}`),
   "final",
 ];
 
@@ -17,7 +17,7 @@ const labels = [
   "Start",
   "Toolkit",
   "Baseline",
-  ...Array.from({ length: TOTAL_WEEKS }, (_, i) => `Wk ${i + 1}`),
+  ...Array.from({ length: TOTAL_WEEKS }, (_, i) => `Wk ${i + 2}`),
   "Final",
 ];
 

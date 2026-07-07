@@ -38,13 +38,13 @@ export default function Home() {
               Weekly Entries
             </h2>
             <p className="font-body text-base text-navy/50 mb-8">
-              Seven weeks of learning, reflecting, and growing as a leader.
+              Five weeks of learning, reflecting, and growing as a leader.
             </p>
           </div>
-          {entries.map((entry) => (
+          {entries.map((entry, index) => (
             <div key={entry.week} id={`week-${entry.week}`}>
-              <WeeklyEntry entry={entry} total={entries.length} />
-              {entry.week < entries.length && (
+              <WeeklyEntry entry={entry} total={6} />
+              {index < entries.length - 1 && (
                 <div className="squiggle w-full max-w-xs mx-auto my-8" />
               )}
             </div>

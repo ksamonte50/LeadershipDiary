@@ -61,7 +61,7 @@ export default function WeeklyEntry({ entry, total }: Props) {
 
           {/* Content Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* Insight */}
+            {/* Resource */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -71,13 +71,15 @@ export default function WeeklyEntry({ entry, total }: Props) {
             >
               <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
                 <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#10024;" }} />
-                Resources
+                Key Resource
               </h3>
               <p className="font-body text-lg text-navy/80 leading-relaxed">
                 {entry.insight}
               </p>
               <a
-                href={`/resources/week-${entry.week}-resource.pdf`}
+                href={entry.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block font-body text-sm text-navy/40 hover:text-terracotta transition-colors mt-3 group"
               >
                 View resource <span className="group-hover:translate-x-0.5 inline-block transition-transform">&#8599;</span>
