@@ -55,11 +55,11 @@ export const entries: DiaryEntry[] = [
     title: "Leadership from the Side",
     insight:
       "Leadership That Gets Results by Daniel Goleman",
-    goal: "Move from being a participant who contributes ideas to a facilitator who helps the group produce its best collective thinking.",
+    goal: "Establish more approaches to leading (ideally 4).",
     action:
       "Practice one new facilitation technique (e.g., silent brainstorming, affinity mapping) in a real setting this week.",
     resonance:
-      "The idea that facilitation is a design skill, not just a meeting-management skill, changed how I think about this competency.",
+      "Shift from setting the pace to setting the vision. Instead of dictating exact steps, work towards a clear, inspiring target.",
     link: "https://www.cdfifund.gov/system/files/documents/%2851%29-leadership-that-gets-results.pdf?authuser=0",
   },
   {
@@ -68,11 +68,11 @@ export const entries: DiaryEntry[] = [
     title: "Goodreads Site Visit",
     insight:
       "Goodreads | About us",
-    goal: "Integrate equity considerations into my design process from the start, not as an afterthought.",
+    goal: "Find a role/title/position that specifically aligns with what I want, and pursue it aggressively.",
     action:
-      "For the next project, build in a structured bias-check step before presenting work to stakeholders.",
+      "Research specific roles according to my interests and skills, and reach out to professionals in those roles.",
     resonance:
-      "The case studies on inclusive design showed me that better design and more ethical design are often the same thing.",
+      "The site visit to Goodreads reminded me of the importance of designing for diverse audiences and truly connecting with users to understand their needs and perspectives.",
     link: "https://www.goodreads.com/about/us",
   },
 ];
