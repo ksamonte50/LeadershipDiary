@@ -120,7 +120,7 @@ export default function WeeklyEntry({ entry, total }: Props) {
               </p>
             </motion.div>
 
-            {/* Resonance (optional) */}
+            {/* Insight */}
             {entry.resonance && (
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
@@ -131,7 +131,7 @@ export default function WeeklyEntry({ entry, total }: Props) {
               >
               <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
                   <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#128156;" }} />
-                  What Resonated
+                  Insight
                 </h3>
                 <p className="font-body text-lg text-navy/80 leading-relaxed italic">
                   {entry.resonance}
