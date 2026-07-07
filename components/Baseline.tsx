@@ -15,7 +15,7 @@ export default function Baseline() {
         transition={{ duration: 0.6 }}
       >
         <p className="font-body text-base tracking-[0.25em] uppercase text-sage mb-2">
-          Chapter 1
+          The Beginning
         </p>
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-navy mb-4">
           Where I Started
@@ -96,7 +96,7 @@ export default function Baseline() {
       >
         <h3 className="font-heading text-[1.75rem] font-semibold text-navy mb-6 flex items-center gap-2">
           <span className="text-terracotta">&#10038;</span>
-          Superpowers Assessment
+          VIA Character Strengths
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {baseline.superpowers.map((sp, i) => (

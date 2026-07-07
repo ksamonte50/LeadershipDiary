@@ -18,48 +18,58 @@ export type Baseline = {
 export const baseline: Baseline = {
   strengths: [
     {
-      name: "Strategic",
+      name: "Developer",
       rank: 1,
       description:
-        "You sort through the clutter and find the best route forward. You find patterns where others see complexity.",
+        "You recognize and cultivate the potential in others. You spot the signs of each small improvement and love when you see someone make progress",
     },
     {
-      name: "Futuristic",
+      name: "Woo",
       rank: 2,
       description:
-        "You are inspired by the future and what could be. You inspire others with your visions of tomorrow.",
+        "You love meeting new people and winning them over. You enjoy socializing and making connections.",
     },
     {
-      name: "Connectedness",
+      name: "Positivity",
       rank: 3,
       description:
-        "You have faith in the links between all things. You see meaning and connections in events and patterns.",
+        "You have contagious enthusiasm. You are naturaly upbeat and can energize others.",
+    },
+    {
+      name: "Harmony",
+      rank: 4,
+      description:
+        "You look for consensus. You have no use for unnecessary friction and guide others toward practical solutions.",
     },
     {
       name: "Communication",
-      rank: 4,
-      description:
-        "You find it easy to put thoughts into words. You are a good listener and an excellent conversationalist.",
-    },
-    {
-      name: "Ideation",
       rank: 5,
       description:
-        "You are fascinated by ideas. You are able to find connections between seemingly unrelated phenomena.",
+        "You generaly find it easy to put your thoughts into words. You are a good conversationalist and presenter.",
     },
   ],
   superpowers: [
     {
-      name: "Visionary Storyteller",
+      name: "Forgiveness",
       description:
-        "You paint vivid pictures of the future that make people want to follow. Your ability to translate abstract ideas into compelling narratives is your superpower.",
+        "Forgiving those who have done wrong; accepting others’ shortcomings; giving people a second chance; not being vengeful.",
     },
     {
-      name: "Pattern Detective",
+      name: "Teamwork",
       description:
-        "You see connections others miss. Your mind naturally maps complex systems and finds the hidden logic in chaos.",
+        "Working well as a member of a group or team; being loyal to the group; doing one's share.",
+    },
+    {
+      name: "Kindness",
+      description:
+        "Doing favors and good deeds for others; helping them; taking care of them.",
+    },
+    {
+      name: "Love",
+      description:
+        "Valuing close relations with others, in particular those in which sharing & caring are reciprocated; being close to people.",
     },
   ],
   reflection:
-    "Looking at my results, I see a strong pattern: I'm drawn to big-picture thinking and making meaning from complexity. My strengths cluster around strategic and creative domains. I notice I may need to be more intentional about execution, follow-through, and building structure — areas where my natural gifts don't automatically take me. This baseline feels like a honest starting point for the work ahead.",
+    "The collection of resources revealed that I am an empathetic synchronizer. My technical skills as an interaction designer are heavily amplified by my soft skills. I excel at keeping teams unified, energized, and moving forward harmoniously. By leaning on teammates who excel in rigid execution (to balance my tendency to procrastinate) and actively practicing asking for help, I possess a highly potent, deeply human approach to modern collaborative design.",
 };
