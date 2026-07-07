@@ -91,7 +91,7 @@ export default function ProgressTrail() {
 
   // Dot-to-dot wavy SVG connector
   const WavyConnector = ({ filled }: { filled: boolean }) => (
-    <svg width="20" height="24" viewBox="0 0 20 24" fill="none" className="flex-shrink-0">
+    <svg width="20" height="24" viewBox="0 0 20 24" fill="none" className="shrink-0">
       <path
         d="M10 0 Q16 6 10 12 Q4 18 10 24"
         stroke={filled ? "var(--color-terracotta)" : "var(--color-navy)"}

@@ -90,7 +90,7 @@ export default function WeeklyEntry({ entry, total }: Props) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 0.5 }}
-              className="rounded-2xl p-6 border border-navy/10 bg-navy/[0.03]"
+              className="rounded-2xl p-6 border border-navy/10 bg-navy/3"
             >
               <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
                 <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#127919;" }} />
@@ -107,7 +107,7 @@ export default function WeeklyEntry({ entry, total }: Props) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="rounded-2xl p-6 border border-navy/10 bg-navy/[0.03]"
+              className="rounded-2xl p-6 border border-navy/10 bg-navy/3"
             >
               <h3 className="font-heading text-base font-semibold text-navy/50 uppercase tracking-wider mb-2 flex items-center gap-2">
                 <span className="text-xl" dangerouslySetInnerHTML={{ __html: "&#9889;" }} />

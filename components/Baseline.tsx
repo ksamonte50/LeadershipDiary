@@ -55,7 +55,7 @@ export default function Baseline() {
                   {s.name}
                 </span>
               </div>
-              <div className="w-full bg-navy/[0.06] rounded-full h-3 overflow-hidden">
+              <div className="w-full bg-navy/6 rounded-full h-3 overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
                   whileInView={{
@@ -138,7 +138,7 @@ export default function Baseline() {
           <span className="text-sage">&#10042;</span>
           What I Noticed
         </h3>
-        <div className="bg-navy/[0.04] rounded-2xl p-8 border border-navy/10">
+        <div className="bg-navy/4 rounded-2xl p-8 border border-navy/10">
           <p className="font-body text-navy/70 leading-relaxed italic">
             &ldquo;{baseline.reflection}&rdquo;
           </p>
